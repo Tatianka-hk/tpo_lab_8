@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Multiplication</title>
+
+</head>
+<body>
+<h1>Matrix Multiplication</h1>
+<form id="matrixForm" enctype="multipart/form-data">
+    <label for="matrix1">Matrix 1:</label>
+    <input type="file" name="matrix1" id="matrix1" accept=".txt" required>
+    <br>
+    <label for="matrix2">Matrix 2:</label>
+    <input type="file" name="matrix2" id="matrix2" accept=".txt" required>
+    <br>
+    <button type="submit">Multiply</button>
+</form>
+<button id="generateMatrixBtn">Server multiply</button>
+<h2>Result:</h2>
+<a id="resultLink" href="#" download>Download Result</a>
+<script src="script.js"></script>
+</body>
+</html>
